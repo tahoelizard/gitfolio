@@ -23,4 +23,4 @@ jobs:
           # Wait for the Next.js server to respond before launching tests
           wait-on: 'http://localhost:3000'
           # Maximum time (in seconds) to wait for the server to be ready
-          wait-on-timeout: 60
+          wait-on-timeout: 120
