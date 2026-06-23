@@ -19,7 +19,7 @@ jobs:
           # Build the Next.js production application first
           build: npm run build
           # Start the Next.js local server
-          start: npm run start
+          dev: npm run dev
           # Wait for the Next.js server to respond before launching tests
           wait-on: 'http://localhost:3000'
           # Maximum time (in seconds) to wait for the server to be ready
